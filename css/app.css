@@ -1,17 +1,47 @@
+body
+{
+    background-color: yellow;
+}
+
 textarea
 {
-    width: 70%;
+    width: 50%;
     height: 13vh;
-    margin: 1rem;
+
     padding: 1rem;
+    border-radius: 2rem;
+    display: block;
+    margin: auto;
 }
 
 #output
 {
+    display: block;
     border: 1px solid black;
     height: 20vh;
-    width: 70%;
-    margin: 1rem;
+    width: 50%;
+    margin: auto;
     padding: 1rem;
+    background-color: #fff;
+    border-radius: 2rem;
+   
+
+}
+
+.margin
+{
+    margin: 1rem;
+    text-align: center;
+}
+
+#btn-translate
+{
+    display: block;
+    background-color: orange;
+    width: 80px;
+    height: 40px;
+    border-radius: 0.8rem;
+    border: none;
+    margin: auto
 
 }
