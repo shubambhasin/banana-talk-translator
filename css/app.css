@@ -16,6 +16,7 @@ textarea
     border-radius: 1rem;
     display: block;
     margin: auto;
+    border: none;
 }
 
 #output
@@ -28,6 +29,7 @@ textarea
     padding: 1rem;
     background-color: #fff;
     border-radius: 1rem;
+    border: none;
 
    
 
@@ -53,7 +55,8 @@ textarea
     height: 40px;
     border-radius: 0.8rem;
     border: none;
-    margin: auto
+    margin: auto;
+    color:white;
 
 }
 .orange
@@ -77,6 +80,6 @@ footer i
 }
 .text-center
 {
-    padding-top: 30px;
+    padding-top: 3  0px;
     text-align: center;
 }
