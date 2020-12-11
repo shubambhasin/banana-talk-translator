@@ -51,12 +51,14 @@ textarea
 {
     display: block;
     background-color: var(--orange);
-    width: 80px;
+    width: 120px;
     height: 40px;
-    border-radius: 0.8rem;
+    border-radius: 0.5rem;
     border: none;
     margin: auto;
     color:white;
+    padding: 0.5rem;
+    font-size: large;
 
 }
 .orange
@@ -80,6 +82,9 @@ footer i
 }
 .text-center
 {
-    padding-top: 3  0px;
     text-align: center;
+}
+.padding30px
+{
+    padding-top: 30px;
 }
