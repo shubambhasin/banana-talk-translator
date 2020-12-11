@@ -3,13 +3,17 @@ body
     background-color: yellow;
 }
 
+:root{
+    --orange: #fc960c
+}
+
 textarea
 {
     width: 50%;
     height: 13vh;
 
     padding: 1rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
     display: block;
     margin: auto;
 }
@@ -23,9 +27,16 @@ textarea
     margin: auto;
     padding: 1rem;
     background-color: #fff;
-    border-radius: 2rem;
+    border-radius: 1rem;
+
    
 
+}
+
+.output-text
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
 }
 
 .margin
@@ -37,11 +48,17 @@ textarea
 #btn-translate
 {
     display: block;
-    background-color: orange;
+    background-color: var(--orange);
     width: 80px;
     height: 40px;
     border-radius: 0.8rem;
     border: none;
     margin: auto
+
+}
+.orange
+{
+    color: var(--orange);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
