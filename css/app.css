@@ -62,3 +62,21 @@ textarea
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
+
+footer
+{
+    height: 15vh;
+    background-color: var(--orange);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+footer i
+{
+    color: red;
+}
+.text-center
+{
+    padding-top: 30px;
+    text-align: center;
+}
